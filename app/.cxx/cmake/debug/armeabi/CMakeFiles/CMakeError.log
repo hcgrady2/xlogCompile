@@ -1,0 +1,10 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_17174"
+[1/2] Building C object CMakeFiles/cmTC_17174.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_17174.dir/testCCompiler.c.o 
+/Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r15c/sysroot  -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE -o CMakeFiles/cmTC_17174.dir/testCCompiler.c.o   -c testCCompiler.c
+ninja: build stopped: subcommand failed.
+
+

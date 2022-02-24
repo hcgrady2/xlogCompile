@@ -1,0 +1,192 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni",
+  "buildDirectory": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi",
+    "-DANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r15c",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r15c",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/debug/obj/armeabi",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DANDROID_STL\u003dc++_shared"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Android: Targeting API '16' with architecture 'arm', ABI 'armeabi', and processor 'armv5te'","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Android: Targeting API '16' with architecture 'arm', ABI 'armeabi', and processor 'armv5te'
+CMAKE SERVER: Android: Targeting API '16' with architecture 'arm', ABI 'armeabi', and processor 'armv5te'
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Android: Selected Clang toolchain 'arm-linux-androideabi-clang' with GCC toolchain 'arm-linux-androideabi-4.9'","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Android: Selected Clang toolchain 'arm-linux-androideabi-clang' with GCC toolchain 'arm-linux-androideabi-4.9'
+CMAKE SERVER: Android: Selected Clang toolchain 'arm-linux-androideabi-clang' with GCC toolchain 'arm-linux-androideabi-4.9'
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\n  The C compiler\n\n    \"/Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\" \"cmTC_17174\"\n    [1/2] Building C object CMakeFiles/cmTC_17174.dir/testCCompiler.c.o\n    FAILED: CMakeFiles/cmTC_17174.dir/testCCompiler.c.o \n    /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r15c/sysroot  -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE -o CMakeFiles/cmTC_17174.dir/testCCompiler.c.o   -c testCCompiler.c\n    ninja: build stopped: subcommand failed.\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n\n","title":"Error","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_17174"
+    [1/2] Building C object CMakeFiles/cmTC_17174.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_17174.dir/testCCompiler.c.o 
+    /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r15c/sysroot  -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE -o CMakeFiles/cmTC_17174.dir/testCCompiler.c.o   -c testCCompiler.c
+    ninja: build stopped: subcommand failed.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+CMAKE SERVER: CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_17174"
+    [1/2] Building C object CMakeFiles/cmTC_17174.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_17174.dir/testCCompiler.c.o 
+    /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r15c/sysroot  -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE -o CMakeFiles/cmTC_17174.dir/testCCompiler.c.o   -c testCCompiler.c
+    ninja: build stopped: subcommand failed.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring incomplete, errors occurred!\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeOutput.log\".\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeError.log\".","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeOutput.log".
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeError.log".
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeOutput.log".
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi/CMakeFiles/CMakeError.log".
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","errorMessage":"Configuration failed.","inReplyTo":"configure","type":"error"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuration failed.

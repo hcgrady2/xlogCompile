@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

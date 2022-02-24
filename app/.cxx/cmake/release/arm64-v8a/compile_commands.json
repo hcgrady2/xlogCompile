@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/arm64-v8a",
+  "command": "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/export_include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/native-lib.cpp",
+  "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/native-lib.cpp"
+}
+]

@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/export_include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "buildCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/arm64-v8a\" native-lib",
+      "buildType": "debug",
+      "toolchain": "3298627146",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "3298627146": {
+      "cppCompilerExecutable": "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

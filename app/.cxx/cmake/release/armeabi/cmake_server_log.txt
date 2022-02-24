@@ -1,0 +1,268 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni",
+  "buildDirectory": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi",
+    "-DANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r16b",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r16b",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DANDROID_STL\u003dc++_shared"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /Users/dida/Develop/android-ndk-r16b\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /Users/dida/Develop/android-ndk-r16b
+Call Stack (most recent call first):
+  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /Users/dida/Develop/android-ndk-r16b
+Call Stack (most recent call first):
+  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken
+CMAKE SERVER: Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\n  The C compiler\n\n    \"/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\" \"cmTC_b82d1\"\n    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o\n    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o \n    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c\n    clang: error: unable to execute command: Killed: 9\n    clang: error: assembler command failed due to signal (use -v to see invocation)\n    Android clang version 5.0.300080  (based on LLVM 5.0.300080)\n    Target: armv5te-none-linux-android\n    Thread model: posix\n    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin\n    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.\n    clang: note: diagnostic msg: \n    ********************\n    \n    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:\n    Preprocessed source(s) and associated run script(s) are located at:\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh\n    clang: note: diagnostic msg: \n    \n    ********************\n    ninja: build stopped: subcommand failed.\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n\n","title":"Error","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b82d1"
+    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o 
+    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c
+    clang: error: unable to execute command: Killed: 9
+    clang: error: assembler command failed due to signal (use -v to see invocation)
+    Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+    Target: armv5te-none-linux-android
+    Thread model: posix
+    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.
+    clang: note: diagnostic msg: 
+    ********************
+    
+    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+    Preprocessed source(s) and associated run script(s) are located at:
+    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c
+    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh
+    clang: note: diagnostic msg: 
+    
+    ********************
+    ninja: build stopped: subcommand failed.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+CMAKE SERVER: CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b82d1"
+    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o 
+    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c
+    clang: error: unable to execute command: Killed: 9
+    clang: error: assembler command failed due to signal (use -v to see invocation)
+    Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+    Target: armv5te-none-linux-android
+    Thread model: posix
+    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin
+    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.
+    clang: note: diagnostic msg: 
+    ********************
+    
+    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+    Preprocessed source(s) and associated run script(s) are located at:
+    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c
+    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh
+    clang: note: diagnostic msg: 
+    
+    ********************
+    ninja: build stopped: subcommand failed.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring incomplete, errors occurred!\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log\".\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log\".","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log".
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log".
+CMAKE SERVER: Configuring incomplete, errors occurred!
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log".
+See also "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log".
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","errorMessage":"Configuration failed.","inReplyTo":"configure","type":"error"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuration failed.
