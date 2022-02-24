@@ -18,7 +18,7 @@
 ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=/Users/dida/Library/Android/sdk/ndk/20.0.5594570
+ANDROID_NDK:UNINITIALIZED=/Users/dida/Develop/android-ndk-r15c
 
 //No help, variable specified on the command line.
 ANDROID_PLATFORM:UNINITIALIZED=android-16
@@ -27,10 +27,10 @@ ANDROID_PLATFORM:UNINITIALIZED=android-16
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=armeabi-v7a
 
 //No help, variable specified on the command line.
-CMAKE_ANDROID_NDK:UNINITIALIZED=/Users/dida/Library/Android/sdk/ndk/20.0.5594570
+CMAKE_ANDROID_NDK:UNINITIALIZED=/Users/dida/Develop/android-ndk-r15c
 
 //Archiver
-CMAKE_AR:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar
+CMAKE_AR:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar
 
 //Flags used by the compiler during all build types.
 CMAKE_ASM_FLAGS:STRING=
@@ -68,7 +68,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Libraries linked by default with all C++ applications.
-CMAKE_CXX_STANDARD_LIBRARIES:STRING=-latomic -lm
+CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lm "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
 
 //LLVM archiver
 CMAKE_C_COMPILER_AR:FILEPATH=CMAKE_C_COMPILER_AR-NOTFOUND
@@ -93,7 +93,7 @@ CMAKE_C_FLAGS_RELEASE:STRING=
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Libraries linked by default with all C applications.
-CMAKE_C_STANDARD_LIBRARIES:STRING=-latomic -lm
+CMAKE_C_STANDARD_LIBRARIES:STRING=-lm
 
 //Flags used by the linker.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -120,7 +120,7 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/debug/obj/armeabi-v7a
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ld
+CMAKE_LINKER:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ld
 
 //No help, variable specified on the command line.
 CMAKE_MAKE_PROGRAM:UNINITIALIZED=/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
@@ -141,19 +141,19 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-nm
+CMAKE_NM:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objcopy
+CMAKE_OBJCOPY:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objdump
+CMAKE_OBJDUMP:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Project
 
 //Ranlib
-CMAKE_RANLIB:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib
+CMAKE_RANLIB:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -193,7 +193,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
+CMAKE_STRIP:FILEPATH=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-strip
 
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
@@ -202,7 +202,7 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -220,10 +220,10 @@ Project_SOURCE_DIR:STATIC=/Users/dida/Android/Github/mars-master/samples/android
 XLOG_LIB:FILEPATH=/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi-v7a/libmarsxlog.so
 
 //Path to a library.
-log-lib:FILEPATH=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so
+log-lib:FILEPATH=/Users/dida/Develop/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/liblog.so;general;/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi-v7a/libmarsxlog.so;
+native-lib_LIB_DEPENDS:STATIC=general;/Users/dida/Develop/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/liblog.so;general;/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi-v7a/libmarsxlog.so;
 
 
 ########################

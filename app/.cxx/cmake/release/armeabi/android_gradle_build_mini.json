@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
+    "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\" clean"
+  ],
+  "buildTargetsCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-armeabi": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\" native-lib",
+      "abi": "armeabi",
+      "output": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so"
+    }
+  }
+}

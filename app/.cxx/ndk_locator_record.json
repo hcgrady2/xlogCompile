@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/dida/Library/Android/sdk/ndk/20.0.5594570",
+  "ndkFolder": "/Users/dida/Develop/android-ndk-r15c",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is /Users/dida/Library/Android/sdk/ndk/20.0.5594570"
+      "message": "ndk.dir in local.properties is /Users/dida/Develop/android-ndk-r15c"
     },
     {
       "level": "INFO",
@@ -19,7 +19,7 @@
     },
     {
       "level": "INFO",
-      "message": "Considering /Users/dida/Library/Android/sdk/ndk/20.0.5594570 by ndk.dir"
+      "message": "Considering /Users/dida/Develop/android-ndk-r15c by ndk.dir"
     },
     {
       "level": "INFO",
@@ -47,11 +47,15 @@
     },
     {
       "level": "INFO",
+      "message": "Considering /Users/dida/Library/Android/sdk/ndk/21.1.6352462 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
       "message": "Considering /Users/dida/Library/Android/sdk/ndk/23.1.7779620 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/Users/dida/Library/Android/sdk/ndk/20.0.5594570) which has version 20.0.5594570"
+      "message": "Found requested ndk.dir (/Users/dida/Develop/android-ndk-r15c) which has version 15.2.4203891"
     }
   ]
 }

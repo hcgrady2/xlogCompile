@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
       //  Log.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, "", logPath, "LOGSAMPLE", 0);
 
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(stringFromJNI());
+        tv.setText("test");
 
    //     public static void open(boolean isLoadLib, int level, int mode, String cacheDir, String logDir, String nameprefix, String pubkey) {
 
@@ -48,12 +48,10 @@ public class MainActivity extends AppCompatActivity {
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
      */
-    public native String stringFromJNI();
 
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("c++_shared");
         System.loadLibrary("marsxlog");
-        System.loadLibrary("native-lib");
     }
 }

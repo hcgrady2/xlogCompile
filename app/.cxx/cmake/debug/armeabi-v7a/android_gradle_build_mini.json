@@ -1,7 +1,6 @@
 {
   "buildFiles": [
-    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
-    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
     "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt"
   ],
   "cleanCommands": [

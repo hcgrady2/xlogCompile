@@ -1,11 +1,10 @@
 {
   "stringTable": {
     "0": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi-v7a",
-    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/export_include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "1": "--target=armv7-none-linux-androideabi --gcc-toolchain=/Users/dida/Develop/android-ndk-r15c/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dida/Develop/android-ndk-r15c/sysroot -Dnative_lib_EXPORTS -I/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/export_include -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
-    "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
     "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt"
   ],
   "cleanCommands": [
@@ -16,7 +15,7 @@
     "native-lib-Debug-armeabi-v7a": {
       "buildCommand": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi-v7a\" native-lib",
       "buildType": "debug",
-      "toolchain": "3298627146",
+      "toolchain": "463479511",
       "abi": "armeabi-v7a",
       "artifactName": "native-lib",
       "files": [
@@ -31,8 +30,8 @@
     }
   },
   "toolchains": {
-    "3298627146": {
-      "cppCompilerExecutable": "/Users/dida/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    "463479511": {
+      "cppCompilerExecutable": "/Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],

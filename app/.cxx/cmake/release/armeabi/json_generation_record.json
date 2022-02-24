@@ -67,7 +67,7 @@
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi\n-DANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r16b\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi\n-DCMAKE_ANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r16b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi\n-DCMAKE_MAKE_PROGRAM\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_shared\n-B/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\n-GNinja\njvmArgs : \n\n",
+    "message": "executing cmake Executable : /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi\n-DANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r15c\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi\n-DCMAKE_ANDROID_NDK\u003d/Users/dida/Develop/android-ndk-r15c\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi\n-DCMAKE_MAKE_PROGRAM\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_shared\n-B/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\n-GNinja\njvmArgs : \n\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
@@ -109,55 +109,43 @@
   },
   {
     "level": "INFO",
-    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi\",\n    \"-DANDROID_NDK\\u003d/Users/dida/Develop/android-ndk-r16b\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/dida/Develop/android-ndk-r16b\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi\",\n    \"-DANDROID_NDK\\u003d/Users/dida/Develop/android-ndk-r15c\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/dida/Develop/android-ndk-r15c\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):\\n  Using custom NDK path (ANDROID_NDK is set):\\n  /Users/dida/Develop/android-ndk-r16b\\nCall Stack (most recent call first):\\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
-    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
-    "tag": "release|armeabi"
-  },
-  {
-    "level": "WARN",
-    "message": "CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /Users/dida/Develop/android-ndk-r16b\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Android: Targeting API \u002716\u0027 with architecture \u0027arm\u0027, ABI \u0027armeabi\u0027, and processor \u0027armv5te\u0027\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\\n  armeabi is deprecated and will be removed in a future NDK release.\\nCall Stack (most recent call first):\\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\\n  CMakeLists.txt\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
-    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
-    "tag": "release|armeabi"
-  },
-  {
-    "level": "WARN",
-    "message": "CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n",
+    "message": "Android: Targeting API \u002716\u0027 with architecture \u0027arm\u0027, ABI \u0027armeabi\u0027, and processor \u0027armv5te\u0027",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Android: Selected Clang toolchain \u0027arm-linux-androideabi-clang\u0027 with GCC toolchain \u0027arm-linux-androideabi-4.9\u0027\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "message": "Android: Selected Clang toolchain \u0027arm-linux-androideabi-clang\u0027 with GCC toolchain \u0027arm-linux-androideabi-4.9\u0027",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\\n  armeabi is deprecated and will be removed in a future NDK release.\\nCall Stack (most recent call first):\\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\\n\\n\",\"title\":\"Warning\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
-    "level": "WARN",
-    "message": "CMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n",
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
@@ -169,25 +157,193 @@
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "Check for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken",
+    "message": "Check for working C compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\\n  The C compiler\\n\\n    \\\"/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\\\"\\n\\n  is not able to compile a simple test program.\\n\\n  It fails with the following output:\\n\\n    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp\\n    \\n    Run Build Command:\\\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\\\" \\\"cmTC_b82d1\\\"\\n    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o\\n    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o \\n    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target\u003darmv5te-none-linux-androideabi --gcc-toolchain\u003d/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot\u003d/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__\u003d16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c\\n    clang: error: unable to execute command: Killed: 9\\n    clang: error: assembler command failed due to signal (use -v to see invocation)\\n    Android clang version 5.0.300080  (based on LLVM 5.0.300080)\\n    Target: armv5te-none-linux-android\\n    Thread model: posix\\n    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin\\n    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.\\n    clang: note: diagnostic msg: \\n    ********************\\n    \\n    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:\\n    Preprocessed source(s) and associated run script(s) are located at:\\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c\\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh\\n    clang: note: diagnostic msg: \\n    \\n    ********************\\n    ninja: build stopped: subcommand failed.\\n    \\n\\n  \\n\\n  CMake will not be able to correctly generate this project.\\nCall Stack (most recent call first):\\n  CMakeLists.txt\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
-    "level": "ERROR",
-    "message": "CMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\n  The C compiler\n\n    \"/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\" \"cmTC_b82d1\"\n    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o\n    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o \n    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target\u003darmv5te-none-linux-androideabi --gcc-toolchain\u003d/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot\u003d/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__\u003d16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c\n    clang: error: unable to execute command: Killed: 9\n    clang: error: assembler command failed due to signal (use -v to see invocation)\n    Android clang version 5.0.300080  (based on LLVM 5.0.300080)\n    Target: armv5te-none-linux-android\n    Thread model: posix\n    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin\n    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.\n    clang: note: diagnostic msg: \n    ********************\n    \n    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:\n    Preprocessed source(s) and associated run script(s) are located at:\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh\n    clang: note: diagnostic msg: \n    \n    ********************\n    ninja: build stopped: subcommand failed.\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n",
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/dida/Develop/android-ndk-r15c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
@@ -199,31 +355,97 @@
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring incomplete, errors occurred!\\nSee also \\\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log\\\".\\nSee also \\\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log\\\".\",\"type\":\"message\"}\n",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "Configuring incomplete, errors occurred!\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log\".\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log\".",
+    "message": "Configuring done",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"errorMessage\":\"Configuration failed.\",\"inReplyTo\":\"configure\",\"type\":\"error\"}\n",
-    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
-    "tag": "release|armeabi"
-  },
-  {
-    "level": "ERROR",
-    "message": "Configuration failed.",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error configuring CMake server (/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin).\r\nCMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /Users/dida/Develop/android-ndk-r16b\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n\nCMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n\nCheck for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\nCMake Warning at /Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake:243 (message):\n  armeabi is deprecated and will be removed in a future NDK release.\nCall Stack (most recent call first):\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n\nCheck for working C compiler: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- broken\nCMake Error at /Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\n  The C compiler\n\n    \"/Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\" \"cmTC_b82d1\"\n    [1/2] Building C object CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o\n    FAILED: CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o \n    /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target\u003darmv5te-none-linux-androideabi --gcc-toolchain\u003d/Users/dida/Develop/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot\u003d/Users/dida/Develop/android-ndk-r16b/sysroot   -isystem /Users/dida/Develop/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__\u003d16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -fPIE -o CMakeFiles/cmTC_b82d1.dir/testCCompiler.c.o   -c testCCompiler.c\n    clang: error: unable to execute command: Killed: 9\n    clang: error: assembler command failed due to signal (use -v to see invocation)\n    Android clang version 5.0.300080  (based on LLVM 5.0.300080)\n    Target: armv5te-none-linux-android\n    Thread model: posix\n    InstalledDir: /Users/dida/Develop/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin\n    clang: note: diagnostic msg: PLEASE submit a bug report to http://llvm.org/bugs/ and include the crash backtrace, preprocessed source, and associated run script.\n    clang: note: diagnostic msg: \n    ********************\n    \n    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:\n    Preprocessed source(s) and associated run script(s) are located at:\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.c\n    clang: note: diagnostic msg: /var/folders/wq/jd6vyzzs09s6s1h1d8kjdkd40000gn/T/testCCompiler-b37bcf.sh\n    clang: note: diagnostic msg: \n    \n    ********************\n    ninja: build stopped: subcommand failed.\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt\n\n\nConfiguring incomplete, errors occurred!\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeOutput.log\".\nSee also \"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/CMakeError.log\".\n",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler-NDK.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Common.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/ndk-stl-c++_shared.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/ndk-stl-c++.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/abi-armeabi-Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/abi-common-Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/abi-common.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake\",\"/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/armeabi/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni\",\"type\":\"reply\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni\",\"targets\":[{\"artifacts\":[\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so\"],\"buildDirectory\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi\",\"fileGroups\":[{\"compileFlags\":\"-isystem /Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__\u003d16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march\u003darmv5te -mtune\u003dxscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++11  -Os -DNDEBUG  -fPIC  \",\"defines\":[\"native_lib_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/export_include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/android/support/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++abi/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/android/support/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++abi/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sysroot/usr/include\"},{\"isSystem\":true,\"path\":\"/Users/dida/Develop/android-ndk-r15c/sysroot/usr/include/arm-linux-androideabi\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"native-lib.cpp\"]}],\"fullName\":\"libnative-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a --sysroot /Users/dida/Develop/android-ndk-r15c/platforms/android-16/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -L/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/armeabi -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now\",\"linkLibraries\":\"-llog -lmarsxlog -lm \\\"/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/armeabi/libc++.so\\\" \\\"-latomic\\\"\",\"linkPath\":\"-L/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi\",\"linkerLanguage\":\"CXX\",\"name\":\"native-lib\",\"sourceDirectory\":\"/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni\",\"sysroot\":\"/Users/dida/Develop/android-ndk-r15c/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/build_output.txt",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/build_command.txt",
+    "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
+    "tag": "release|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
     "file": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni/CMakeLists.txt",
     "tag": "release|armeabi"
   }

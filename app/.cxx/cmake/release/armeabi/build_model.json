@@ -16,7 +16,7 @@
         "ndk"
       ],
       "buildRoot": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi",
-      "cmakeToolchain": "/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+      "cmakeToolchain": "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake"
+          "value": "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -33,7 +33,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/dida/Develop/android-ndk-r16b"
+          "value": "/Users/dida/Develop/android-ndk-r15c"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -45,7 +45,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/dida/Develop/android-ndk-r16b"
+          "value": "/Users/dida/Develop/android-ndk-r15c"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -77,9 +77,9 @@
   "cxxBuildFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi",
   "info": {
     "abi": "ARMEABI",
-    "bitness": 32,
-    "deprecated": true,
-    "default": false
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
   },
   "originalCxxBuildFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi",
   "variant": {
@@ -98,7 +98,7 @@
         "minimumCmakeVersion": "3.10.2",
         "ninjaExe": "/Users/dida/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "/Users/dida/Develop/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Users/dida/Develop/android-ndk-r15c/build/cmake/android.toolchain.cmake",
       "cxxFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx",
       "gradleModulePathName": ":app",
       "intermediatesFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates",
@@ -106,22 +106,25 @@
       "moduleBuildFile": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build.gradle",
       "moduleRootFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app",
       "ndkDefaultAbiList": [
+        "ARMEABI",
         "ARMEABI_V7A",
         "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "/Users/dida/Develop/android-ndk-r16b",
+      "ndkFolder": "/Users/dida/Develop/android-ndk-r15c",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI",
-          "bitness": 32,
-          "deprecated": true,
-          "default": false
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
         },
         {
           "abi": "ARMEABI_V7A",
-          "bitness": 32,
+          "bitness": 64,
           "deprecated": false,
           "default": true
         },
@@ -133,19 +136,19 @@
         },
         {
           "abi": "MIPS",
-          "bitness": 32,
-          "deprecated": true,
-          "default": false
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
         },
         {
           "abi": "MIPS64",
           "bitness": 64,
-          "deprecated": true,
-          "default": false
+          "deprecated": false,
+          "default": true
         },
         {
           "abi": "X86",
-          "bitness": 32,
+          "bitness": 64,
           "deprecated": false,
           "default": true
         },
@@ -165,7 +168,7 @@
         "X86",
         "X86_64"
       ],
-      "ndkVersion": "16.1.4479499",
+      "ndkVersion": "15.2.4203891",
       "project": {
         "compilerSettingsCacheFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/.cxx",
         "cxxFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/.cxx",
@@ -178,34 +181,34 @@
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "GNUSTL_SHARED": {
-          "ARMEABI": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_shared.so",
-          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so",
-          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_shared.so",
-          "MIPS": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/libgnustl_shared.so",
-          "MIPS64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/libgnustl_shared.so",
-          "X86": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_shared.so",
-          "X86_64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_shared.so"
+          "ARMEABI": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/libgnustl_shared.so",
+          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so",
+          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libgnustl_shared.so",
+          "MIPS": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/libgnustl_shared.so",
+          "MIPS64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/libgnustl_shared.so",
+          "X86": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_shared.so",
+          "X86_64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_shared.so"
         },
         "GNUSTL_STATIC": {},
         "LIBCXX_SHARED": {
-          "ARMEABI": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi/libc++_shared.so",
-          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_shared.so",
-          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so",
-          "MIPS": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/mips/libc++_shared.so",
-          "MIPS64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/mips64/libc++_shared.so",
-          "X86": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/x86/libc++_shared.so",
-          "X86_64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++_shared.so"
+          "ARMEABI": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/armeabi/libc++_shared.so",
+          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_shared.so",
+          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_shared.so",
+          "MIPS": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/mips/libc++_shared.so",
+          "MIPS64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/mips64/libc++_shared.so",
+          "X86": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/x86/libc++_shared.so",
+          "X86_64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "STLPORT_SHARED": {
-          "ARMEABI": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/armeabi/libstlport_shared.so",
-          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/armeabi-v7a/libstlport_shared.so",
-          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/arm64-v8a/libstlport_shared.so",
-          "MIPS": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/mips/libstlport_shared.so",
-          "MIPS64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/mips64/libstlport_shared.so",
-          "X86": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/x86/libstlport_shared.so",
-          "X86_64": "/Users/dida/Develop/android-ndk-r16b/sources/cxx-stl/stlport/libs/x86_64/libstlport_shared.so"
+          "ARMEABI": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/armeabi/libstlport_shared.so",
+          "ARMEABI_V7A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/armeabi-v7a/libstlport_shared.so",
+          "ARM64_V8A": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/arm64-v8a/libstlport_shared.so",
+          "MIPS": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/mips/libstlport_shared.so",
+          "MIPS64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/mips64/libstlport_shared.so",
+          "X86": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/x86/libstlport_shared.so",
+          "X86_64": "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/stlport/libs/x86_64/libstlport_shared.so"
         },
         "STLPORT_STATIC": {},
         "SYSTEM": {}

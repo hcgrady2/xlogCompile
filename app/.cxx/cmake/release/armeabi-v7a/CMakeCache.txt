@@ -60,8 +60,18 @@ CMAKE_CXX_FLAGS:STRING=
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=
 
+//Flags used by the compiler during release builds for minimum
+// size.
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
 //Flags used by the compiler during release builds.
 CMAKE_CXX_FLAGS_RELEASE:STRING=
+
+//Flags used by the compiler during release builds with debug info.
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+//Libraries linked by default with all C++ applications.
+CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lm "/Users/dida/Develop/android-ndk-r15c/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.so"
 
 //LLVM archiver
 CMAKE_C_COMPILER_AR:FILEPATH=CMAKE_C_COMPILER_AR-NOTFOUND
@@ -209,6 +219,15 @@ Project_BINARY_DIR:STATIC=/Users/dida/Android/Github/mars-master/samples/android
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jni
 
+//Path to a library.
+XLOG_LIB:FILEPATH=/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi-v7a/libmarsxlog.so
+
+//Path to a library.
+log-lib:FILEPATH=/Users/dida/Develop/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/liblog.so
+
+//Dependencies for the target
+native-lib_LIB_DEPENDS:STATIC=general;/Users/dida/Develop/android-ndk-r15c/platforms/android-16/arch-arm/usr/lib/liblog.so;general;/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/src/main/jniLibs/jni/armeabi-v7a/libmarsxlog.so;
+
 
 ########################
 # INTERNAL cache entries
@@ -234,6 +253,18 @@ CMAKE_CTEST_COMMAND:INTERNAL=/Users/dida/Library/Android/sdk/cmake/3.10.2.498840
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
 CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS
+CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
+CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
+CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
+CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
+CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB

@@ -1,0 +1,3 @@
+/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/release/armeabi/CMakeFiles/native-lib.dir

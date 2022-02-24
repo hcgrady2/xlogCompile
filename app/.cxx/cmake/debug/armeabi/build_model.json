@@ -66,10 +66,6 @@
         {
           "name": "CMAKE_SYSTEM_VERSION",
           "value": "16"
-        },
-        {
-          "name": "ANDROID_STL",
-          "value": "c++_shared"
         }
       ]
     }
@@ -83,9 +79,7 @@
   },
   "originalCxxBuildFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/.cxx/cmake/debug/armeabi",
   "variant": {
-    "buildSystemArgumentList": [
-      "-DANDROID_STL\u003dc++_shared"
-    ],
+    "buildSystemArgumentList": [],
     "buildTargetSet": [],
     "cFlagsList": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",

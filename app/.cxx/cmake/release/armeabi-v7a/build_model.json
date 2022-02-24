@@ -217,6 +217,7 @@
     "objFolder": "/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/release/obj",
     "variantName": "release",
     "validAbiList": [
+      "ARMEABI",
       "ARMEABI_V7A"
     ]
   }

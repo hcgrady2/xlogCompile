@@ -1,0 +1,7 @@
+# ninja log v5
+0	251	1645686745	CMakeFiles/native-lib.dir/native-lib.cpp.o	67a18bff7acd2c80
+251	320	1645686745	/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	fa13d67bd3d21d38
+0	7	0	clean	248c1ba0126a2dc9
+0	8	0	clean	248c1ba0126a2dc9
+1	274	1645686777	CMakeFiles/native-lib.dir/native-lib.cpp.o	67a18bff7acd2c80
+274	362	1645686777	/Users/dida/Android/Github/mars-master/samples/android/xlogSample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	fa13d67bd3d21d38
